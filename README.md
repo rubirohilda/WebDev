@@ -1,5 +1,5 @@
 # WebDev MAIN
 Edalia
-Jhanvi
+Jhanvi Chohan,
 Bilal
 Rose
