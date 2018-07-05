@@ -1,0 +1,35 @@
+body{
+ 
+}
+.middle1{
+   
+    height: 700px;
+    width: 100%;
+}
+.signupbtn{
+   background:white;
+    height: 40px;
+    width: 80px;
+  
+    
+}
+.signupbtn:hover,.signupbtn:focus{
+    
+    color: dimgrey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.signinbtn{
+     background:white;
+    height: 40px;
+    width: 80px;
+    
+}
+.signinbtn:hover,.signinbtn:focus{
+    
+    color: dimgrey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*all buttons*/
