@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADD RECIPIES</title>
+    <link type="text/css" rel="stylesheet" href="myrecipies.css"/>
+</head>
+<header style="height: 130px; width: 100%;background-color: maroon;position: absolute">
+      <h1 style="font-size: 50px;text-align: center">ADD USER RECIPIES</h1>
+</header>
+<body>
+ <div class="middle"><h2 style="text-align: center;color: maroon">NOW YOU CAN ADD YOUR OWN RECIPIES ACCORDING TO THE CATEGORIES BELOW;</h2></div> 
+   //CUISINE
+    <div class="middle1"><b>CUISINE</b><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HtSiGtO-BrXMMNd2Qsw9xDirTxj7Xwmb8LnmUF9AXLints3wWw" style="width:200px;height: 200px"><br><p1 style="font-size: 20px;color: maroon">A cuisine is a style of cooking characterized by distinctive ingredients, techniques and dishes, and usually associated with a specific culture or geographic region. A cuisine is primarily influenced by the ingredients that are available locally or through trade.</p1>
+    <div><br>
+        
+        <select id="" name=""> 
+
+<option value="african">AFRICAN</option><option value="western-europe">WESTERN-EUROPE </option><option value="asian">ASIAN</option>
+</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <button id="modalBtn"  class="button">GO</button>
+    <div id="simplemodal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header"><span class="closeBtn"> &times;</span>
+    <h5>Enter Details Here</h5>
+    </div>
+    <div class="modal-body">
+        
+      <form >
+  
+  Sub-Category ID:<br>
+  <input type="text" name="Sub-Category Name" >
+  <br><br>
+  Categoty ID:<br>
+  <input type="text" name="Category Id" >
+  <br><br>
+  <button id="submitBtn" class="button" style="background-color: burlywood"> SUBMIT</button>
+  <?php
+  
+  ?>
+  <form action="post_recipe.php" method="post">
+     <input type="text" >
+     <textarea name="comment" cols="100" rows="100" placeholder="Type recipe here..."></textarea>
+     <input type="submit" value="Comment">
+      
+  </form>
+  
+  
+  
+  <div id="Amodal" class="modal">
+   <div class="modal-content2">
+       <div class="modal-header2"><span class="close">&times;</span>
+           
+       </div>
+       <div class="modal-body">
+       
+         </div>
+   </div>    
+  </div>
+  
+</form>   
+    </div>
+    <div class="modal-footer">
+        <h7>Thank You</h7>
+    </div>
+    
+    
+     </div> 
+    </div>
+    
+</div>
+   //EVENT
+    <div class="middle2"><b>EVENT</b><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoA2pDhOy-QOxWWLLbt72e_mi8SUb7xBO4g4y_YGxvC8XQ0M" style="width:200px;height: 200px"><br ><p2 style="font-size: 20px;color: maroon">An event is something which happens or takes place. An event is brief, possibly extremely brief. Contrast with a process, which takes time. There are different forms of food events across the globe. They generally include the fillowing;weddings,birthdays, anniversaries and baby showers among others</p2>
+    <br>
+    <button id="modalBtn"  class="button">GO</button>
+    <div id="simplemodal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header"><span class="closeBtn"> &times;</span>
+    <h5>Enter Details Here</h5>
+    </div>
+    <div class="modal-body">
+        
+      
+  
+  <div id="Amodal" class="modal">
+   <div class="modal-content2">
+       <div class="modal-header2"><span class="close">&times;</span>
+           
+       </div>
+       <div class="modal-body">
+       
+         </div>
+   </div>    
+  </div>
+  
+  
+    </div>
+    <div class="modal-footer">
+        <h7>Thank You</h7>
+    </div>
+    
+    
+     </div> 
+    </div>
+    
+</div>
+//PREP METHOD
+ <div class="middle3"><b>PREPARATION METHOD</b><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx9V-wBwGZ--DziNHQ7pfB5-Zvmd61mk29XczqTnjpVf_W0GhtOg" style="width:200px;height: 200px"><br><p3 style="font-size: 20px;color: maroon">It encompasses a vast range of methods, tools and combinations of ingredients to improve the flavour or digestibility of food. It generally requires the selection, measurement and combining of ingredients in an ordered procedure in an effort to achieve the result.</p3>
+   <div><br>
+        
+        <select id="prep" name="prep"> 
+
+<option value="baking">BAKING</option><option value="grilling">GRILLING </option>
+</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+       <button id="modalBtn"  class="button">GO</button>
+    <div id="simplemodal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header"><span class="closeBtn"> &times;</span>
+    <h5>Enter Details Here</h5>
+    </div>
+    <div class="modal-body">
+        
+      <form >
+  
+  Sub-Category ID:<br>
+  <input type="text" name="Sub-Category Name" >
+  <br><br>
+  Categoty ID:<br>
+  <input type="text" name="Category Id" >
+  <br><br>
+  <button id="submitBtn" class="button" style="background-color: burlywood"> SUBMIT</button>
+  <?php
+  
+  ?>
+  <form action="post_recipe.php" method="post">
+     <input type="text" >
+     <textarea name="comment" cols="100" rows="100">Type Your Recipe</textarea>
+     <input type="submit" value="Comment">
+      
+  </form>
+  
+  
+  
+  <div id="Amodal" class="modal">
+   <div class="modal-content2">
+       <div class="modal-header2"><span class="close">&times;</span>
+           
+       </div>
+       <div class="modal-body">
+       
+         </div>
+   </div>    
+  </div>
+  
+</form>   
+    </div>
+    <div class="modal-footer">
+        <h7>Thank You</h7>
+    </div>
+    
+    
+     </div> 
+    </div>
+    
+</div>
+   //INGREDIENT TYPE
+    <div class="middle4"><b>INGREDIENT TYPE</b><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNBm76dYtP-ri5o98MPb__2pZ31UUPgvEIPi0vywkShAta1TrvA" style="width:200px;height: 200px"><br><p4 style="font-size: 20px;color: maroon">An ingredient is a substance that forms part of a mixture. For example, in cooking, recipes specify which ingredients are used to prepare a specific dish. Many commercial products contain a secret ingredient that is purported to make them better than competing products.</p4>
+    <br>
+        <button id="modalBtn"  class="button">GO</button>
+    <div id="simplemodal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header"><span class="closeBtn"> &times;</span>
+    <h5>Enter Details Here</h5>
+    </div>
+    <div class="modal-body">
+        
+      <form >
+  
+  Sub-Category ID:<br>
+  <input type="text" name="Sub-Category Name" >
+  <br><br>
+  Categoty ID:<br>
+  <input type="text" name="Category Id" >
+  <br><br>
+  <button id="submitBtn" class="button" style="background-color: burlywood"> SUBMIT</button>
+  <?php
+  
+  ?>
+  <form action="post_recipe.php" method="post">
+     <input type="text" >
+     <textarea name="comment" cols="100" rows="100">Type Your Recipe</textarea>
+     <input type="submit" value="Comment">
+      
+  </form>
+  
+  
+  
+  <div id="Amodal" class="modal">
+   <div class="modal-content2">
+       <div class="modal-header2"><span class="close">&times;</span>
+           
+       </div>
+       <div class="modal-body">
+       
+         </div>
+   </div>    
+  </div>
+  
+</form>   
+    </div>
+    <div class="modal-footer">
+        <h7>Thank You</h7>
+    </div>
+    
+    
+     </div> 
+    </div>
+    
+</div>
+//MEAL TIME
+<div class="middle5"><b>MEAL TIME</b><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTOmwUlWu688tDtXo61cXgoFE4bTToRNIHwklnUIB8vd14i1yw" style="width:200px;height: 200px"><br><p5 style="font-size: 20px;color: maroon">A meal is an eating occasion that takes place at a certain time and includes prepared food.Some serve dinner as the main meal at midday,supper as the late afternoon meal; while others may call their midday meal lunch and their early evening meal supper.</p5>
+   <div><br>
+        
+        <select id="" name=""> 
+
+<option value="breakfast">BREAKFAST</option><option value="lunch">LUNCH </option><option value="dinner">DINNER</option>
+</select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+        <button id="modalBtn"  class="button">GO</button>
+    <div id="simplemodal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header"><span class="closeBtn"> &times;</span>
+    <h5>Enter Details Here</h5>
+    </div>
+    <div class="modal-body">
+        
+      <form >
+  
+  Sub-Category ID:<br>
+  <input type="text" name="Sub-Category Name" >
+  <br><br>
+  Categoty ID:<br>
+  <input type="text" name="Category Id" >
+  <br><br>
+  <button id="submitBtn" class="button" style="background-color: burlywood"> SUBMIT</button>
+  <?php
+  
+  ?>
+  <form action="post_recipe.php" method="post">
+     <input type="text" >
+     <textarea name="comment" cols="100" rows="100">Type Your Recipe</textarea>
+     <input type="submit" value="Comment">
+      
+  </form>
+  
+  
+  
+  <div id="Amodal" class="modal">
+   <div class="modal-content2">
+       <div class="modal-header2"><span class="close">&times;</span>
+           
+       </div>
+       <div class="modal-body">
+       
+         </div>
+   </div>    
+  </div>
+  
+</form>   
+    </div>
+    <div class="modal-footer">
+        <h7>Thank You</h7>
+    </div>
+    
+    
+     </div> 
+    </div>
+    
+</div>
+
+
+ 
+   
+ <script src="myrecipies.js"></script>    
+</body>
+</html>
